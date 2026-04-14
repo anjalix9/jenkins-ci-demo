@@ -16,7 +16,7 @@ pipeline {
 
         stage('Test') {
             steps {
-                sh 'pytest || true'
+                bat 'pytest || true'
             }
         }
     }
